@@ -24,7 +24,8 @@ This workshop was structured into five sections:
         <ul>
           <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
           <ul style="list-style-type: square"><li>What was learnt</li>
-          <li>Drain-to-Source Voltage (Vds)</li>
+          <li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
+          <li>What was learnt</li>
           <li>Characteristic plots</li>
         </ul>
       </li>
