@@ -534,13 +534,6 @@ run
     <td>88 ps</td>
     <td>1.4 V</td>
   </tr>
-  <tr>
-    <td>Row6C1</td>
-    <td>Row6C2</td>
-    <td>Row6C3</td>
-    <td>Row6C4</td>
-    <td>Row6C5</td>
-  </tr>
 </table>
 
 
