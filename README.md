@@ -69,4 +69,8 @@ This workshop was structured into five sections:
     </ul>
   </li>
 </ul>
+<ul style="list-style-type: circle;">
+  <li>Conclusion</li>
+  <li>References</li>
+</ul>
 
