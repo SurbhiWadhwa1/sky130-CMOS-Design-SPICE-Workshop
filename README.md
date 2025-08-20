@@ -339,7 +339,11 @@ setplot dc1
 
 
 
-<br>
+<br><h2>CMOS Switching threshold and dynamic simulations</h2>
+
+<h3>Part 1: Voltage transfer characteristics and SPICE simulations</h3>
+<h4>What was learnt</h4>
+
 
 
 <br>
