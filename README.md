@@ -26,13 +26,18 @@ This workshop was structured into five sections:
           -What was learnt
           <li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
           -What was learnt
-          <li>Characteristic plots</li>
+          <li>Introduction to SPICE</li>
+          -What was learnt
+          -Lab Activity
         </ul>
       </li>
-      <li>Inverter VTC & Velocity Saturation
+      <li>Velocity Saturation and basics of CMOS inverter VTC
         <ul>
-          <li>CMOS inverter behavior</li>
-          <li>Id–Vgs analysis</li>
+          <li>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</li>
+          -What was learnt
+          -Lab Activity
+          <li>Part 2: CMOS voltage transfer characteristics (VTC)</li>
+          -What was learnt
         </ul>
       </li>
       <li>Switching Threshold & Dynamic Simulations
