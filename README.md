@@ -670,12 +670,12 @@ display
 <br>Method to calculate the Noise Margins from the plot:
 <br>Run the ngspice command and open the plot
 <br>left click on the point towards the top of the graph where the curvature seems to be '-1'
-<br>In this case it was x0 = 0.766667, y0 = 1.71351
+<br>In this case it was x0 = 0.775556, y0 = 1.70213
 <br>Now, left click on the point towards the bottom of the graph where the curvature seems to be '-1'
-<br>In this case it was x0 = 0.977333, y0 = 0.110811. Let's consider these points as x1 and y1 thus making the coordinates x1 = 0.977333, y1 = 0.110811
+<br>In this case it was x0 = 0.976667, y0 = 0.102128. Let's consider these points as x1 and y1 thus making the coordinates x1 = 0.977333, y1 = 0.110811
 <br>For noise margin high we need Voh-Vih and in this case Voh=y0 and Vih=x1
 <br>For noise margin low we need Vil-Vol and in this case Vil=x0 and Vol=y1
-<br>Therefore, we get NMh = 0.736177 and NMl = 0.655856
+<br>Therefore, we get NMh = 0.725463 and NMl = 0.673428
 
 
 
