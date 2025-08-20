@@ -333,18 +333,23 @@ setplot dc1
 <br>Vdsp = Vout – Vdd
 <br>For the relationship between the currents: Idsp=-Idsn
 <br>Load curve for PMOS transistor in CMOS inverter
-<br>
+<br>![WhatsApp Image 2025-08-20 at 21 26 32](https://github.com/user-attachments/assets/ef1e6a6d-b776-4bfb-8b2d-7f67066368a1)
+
 
 
 
 
 
 <br><h2>CMOS Switching threshold and dynamic simulations</h2>
+<br>In the third session of the workshop, the main focus was on understanding voltage transfer characteristics using SPICE simulations. Later, CMOS inverter robustness was discussed, with a detailed explanation of the switching threshold. It was also shown how the switching threshold relates to the (W/L) ratios of PMOS and NMOS, and how you can find one if the other is preset.
 
 <h3>Part 1: Voltage transfer characteristics and SPICE simulations</h3>
 <h4>What was learnt</h4>
-
-
+<br>SPICE deck has the following components-
+<li>Component connectivity</li>
+<li>Component values</li>
+<li>Identification of nodes</li>
+<li>Naming nodes</li>
 
 <br>
 
