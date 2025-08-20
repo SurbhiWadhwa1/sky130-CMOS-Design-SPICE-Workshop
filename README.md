@@ -78,11 +78,12 @@ In the first session of the workshop, we began by understanding the significance
 <ul>
  <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
     <h4>What was learnt</h4>
-    In this we learnt how SPICE can be used to study the device behaviour by simulating the circuits and analyzing the waveforms. W/L ratio is an important parameter in deciding the device performance. We study the structure of NMOS- it consists of a p-type substrate, has 4 terminals (G,S,D,B), an isolation region created from SiO2 is present to isolate different devices, 2 n+ diffusion regions known as source and drain near the isolation region, a gate oxide layer deposited on the substrate followed by a poly-Si or metal gate layer on top of it. 
-    G stands for gate
-    S stands for source
-    D stands for drain
-    B stands for body
+    In this we learnt how SPICE can be used to study the device behaviour by simulating the circuits and analyzing the waveforms. W/L ratio is an important parameter in deciding the device performance. 
+    <br>We study the structure of NMOS- it consists of a p-type substrate, has 4 terminals (G,S,D,B), an isolation region created from SiO2 is present to isolate different devices, 2 n+ diffusion regions known as source and drain near the isolation region, a gate oxide layer deposited on the substrate followed by a poly-Si or metal gate layer on top of it. 
+   <br>G stands for gate
+    <br>S stands for source
+    <br>D stands for drain
+    <br>B stands for body
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
