@@ -23,9 +23,9 @@ This workshop was structured into five sections:
       <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
         <ul>
           <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
-          <ul style="list-style-type: square"><li>What was learnt</li>
-          <ul style="list-style-type: circle:><li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
-          <li>What was learnt</li>
+          -What was learnt
+          <li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
+          -What was learnt
           <li>Characteristic plots</li>
         </ul>
       </li>
