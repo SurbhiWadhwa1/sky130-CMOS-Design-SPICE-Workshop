@@ -403,6 +403,38 @@ display
 .end
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_24_58](https://github.com/user-attachments/assets/3d3072b5-3384-4986-9199-c47fded29087)
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_25_10](https://github.com/user-attachments/assets/1e6e755e-d79e-49a5-8670-a78f09419d7b)
+<br>
+<br>
+<br>For performing the transient analysis, the following code is required:
+<br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=0.84 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 PULSE(0V 1.8V 0 0.1ns 0.1ns 2ns 4ns)
+
+*simulation commands
+
+.tran 1n 10n
+
+.control
+run
+.endc
+
+.end
+<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_24](https://github.com/user-attachments/assets/991cbf04-912a-4cfa-8e3b-3580e4d4faa9)
+<br>![VirtualBox_vsdworkshop_19_08_2025_21_39_44](https://github.com/user-attachments/assets/a788378a-605c-4d8b-9e9e-11f30c964485)
+
+
 
 
 
