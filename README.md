@@ -239,7 +239,36 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>In general, current tends to increase at lower voltage nodes. Velocity saturation causes the device to enter saturation earlier than expected, limiting further current increase.
 <h4>Lab Activity</h4>
 <br>We will plot the graph between Id vs Vds for short channel device and following code is needed:
-<br>![VirtualBox_vsdworkshop_15_08_2025_18_06_19](https://github.com/user-attachments/assets/e5728770-803b-448b-875e-ab1638ea516d)
+<br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.39 l=0.15
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end!
+<br>[VirtualBox_vsdworkshop_15_08_2025_22_37_51](https://github.com/user-attachments/assets/343c3ecd-999d-4aff-a47f-290288010f90)
+
+<br>
 
 
 
