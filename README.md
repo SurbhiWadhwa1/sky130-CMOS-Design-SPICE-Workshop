@@ -266,7 +266,8 @@ setplot dc1
 .endc
 
 .end!
-<br>[VirtualBox_vsdworkshop_15_08_2025_22_37_51](https://github.com/user-attachments/assets/343c3ecd-999d-4aff-a47f-290288010f90)
+<br>![VirtualBox_vsdworkshop_15_08_2025_22_37_51](https://github.com/user-attachments/assets/c0ecbcee-d3e1-455e-b243-bbf60e3d28b8)
+
 
 <br>
 
