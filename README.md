@@ -237,6 +237,10 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>When Vds is the smallest, the device operates in the resistive (linear) region.
 <br>When Vdsat is the smallest, the device operates in the velocity saturation region.
 <br>In general, current tends to increase at lower voltage nodes. Velocity saturation causes the device to enter saturation earlier than expected, limiting further current increase.
+<h4>Lab Activity</h4>
+<br>We will plot the graph between Id vs Vds for short channel device and following code is needed:
+<br>![day2](https://github.com/user-attachments/assets/a0a9c7fb-d330-4f27-be9b-364fae3ad330)
+
 
 
  
