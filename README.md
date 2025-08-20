@@ -93,11 +93,7 @@ In the first session of the workshop, we began by understanding the significance
     <br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
     <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
     <br>"In the presence of Vsb, additional potential is needed for strong inversion."
-    <br>Threshold Voltage Equation
-Threshold Voltage Equation
-
-Threshold voltage equation
-    
+    <br>Threshold Voltage Equation: V<sub>T</sub> = V<sub>T0</sub> + γ ( √(2φ<sub>F</sub> + V<sub>SB</sub>) − √(2φ<sub>F</sub>) )
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
