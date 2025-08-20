@@ -210,7 +210,8 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>
 <b>Velocity saturation effect for Short channel length</b>
 <br>For lower value of EF velocity tends to linear function of EF but after some time becomes constant.
-<br>Formulae of velocity and mobility
+<br<b>>Formulae of velocity and mobility</b>
+<br>v<sub>n</sub>(m/s)=u<sub>n</sub>.dV/dx
 <br>Solve above formulae using continuity equation 
 <br>Then re- deriving drain current using the boundary conditions.
 <br>Id= -Vn(x). Qi(x).W
