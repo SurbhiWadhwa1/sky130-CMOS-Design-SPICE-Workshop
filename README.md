@@ -101,6 +101,11 @@ In the first session of the workshop, we began by understanding the significance
     <br>
     <br><b>Body effect coefficient expression</b>
    <br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
+    <br>where
+    <br> ε<sub>si</sub> is the relative permitivity of silicon (=11.7)
+    <br>N<sub>A</sub>is the doping concentration
+    <br>q is the charge of an electron
+    <br>Cox is the oxide capacitance
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
