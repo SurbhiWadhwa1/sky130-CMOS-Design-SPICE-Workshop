@@ -94,6 +94,10 @@ In the first session of the workshop, we began by understanding the significance
     <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
     <br>"In the presence of Vsb, additional potential is needed for strong inversion."
     <br>Threshold Voltage Equation: V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
+    <br>where
+    <br>Vt0 is the threshold voltage when Vsb=0 and is a function of manufacturing process
+    <br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
+    <br>φ<sub>F</sub> is the fermi potential
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
