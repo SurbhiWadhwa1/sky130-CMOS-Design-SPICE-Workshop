@@ -136,7 +136,15 @@ In the first session of the workshop, we began by understanding the significance
 <br>I<sub>D</sub> = μ<sub>n</sub> C<sub>ox</sub> (W/L) [ (V<sub>GS</sub> − V<sub>T</sub>) V<sub>DS</sub> − (V<sub>DS</sub><sup>2</sup> / 2) ]
 <br>The term µn.Cox is denoted by kn' and kn' is known as process transconductance
 <br>kn'.(W/L) is denoted by kn and kn is also known as gain factor
-<br>
+<br>Condition on Vds for the MOSFET to be in linear/resistive region or saturation/pinch-off region
+<br>When Vds <= (Vgs-Vt), the MOSFET is in linear region of operation
+<br>For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
+<br>Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
+<br> Dependance of Id on Vds in pinch-off region: The chanel voltage is denoted with Vgs-Vds.
+<b>Pinch-off condition</b> is when Vgs-Vds=Vt
+<br>When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
+When Vgs-Vds<Vt, there is no channel present near the Drain terminal
+
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
