@@ -267,6 +267,8 @@ setplot dc1
 
 .end!
 <br>![VirtualBox_vsdworkshop_18_08_2025_22_26_05](https://github.com/user-attachments/assets/24021f21-ff58-4a4a-ac42-bc635668626c)
+<br>![VirtualBox_vsdworkshop_18_08_2025_22_26_23](https://github.com/user-attachments/assets/f172e705-841c-42b1-b0e5-347df0c96270)
+
 
 <br>To calculate Threshold voltage for Id versus Vgs curve, the following SPICE code is required:
 <br>*Model Description
@@ -299,7 +301,7 @@ setplot dc1
 
 
 
-<br>![VirtualBox_vsdworkshop_15_08_2025_22_37_51](https://github.com/user-attachments/assets/c0ecbcee-d3e1-455e-b243-bbf60e3d28b8)
+<br>
 
 
 <br>
