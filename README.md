@@ -474,7 +474,9 @@ run
 <br>Therefore, Vgs = Vds
 <br>IdsP = - IdsN which means that IdsP + IdsN = 0
 <br>We know the equations for IdsN and IdsP which are as stated below:
-<br>![day3](https://github.com/user-attachments/assets/7d894d25-d584-4c87-bbcb-c431bf1e259d)
+<br>I<sub>dsN</sub>=k<sub>n</sub>.[([V<sub>m</sub>-V<sub>t</sub>].V<sub>dsatN</sub>)-V<sub>dsatN</sup><sup>2</sup>/2]
+<br>
+
 
 
 
