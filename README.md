@@ -85,7 +85,8 @@ In the first session of the workshop, we began by understanding the significance
     <br>D stands for drain
     <br>B stands for body
     <br>Body terminal can be used to tune the threshold voltage.
-    **<br>Threshold Voltage**
+    <br>
+    <b>Threshold Voltage</b>
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
