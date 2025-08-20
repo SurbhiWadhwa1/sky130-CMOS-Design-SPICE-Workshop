@@ -200,6 +200,8 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>At the end of this session, we studied about the operation of MOSFET as a switch and analysis of the CMOS inverter characteristics.
 <h3>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</h3>
  <h4>What was learnt</h4>
+ <br>![132864852-2f667ae5-a71c-4e67-975a-e4c137843114](https://github.com/user-attachments/assets/e0f258a7-eb52-4e98-a7c5-1c4ca2cab8d6)
+
  We did some SPICE Simulation for two  devices whose channel width and channel length is different but there width by length ratio(W/L) is same .
 <br>Case1-    W=1.8u, L=1.2u device (W/L=1.5)
 <br>Case2-     W=0.375U, L=0.25 device (W/L=1.5)
