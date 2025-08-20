@@ -298,6 +298,44 @@ setplot dc1
 
 .end
 <br>![VirtualBox_vsdworkshop_18_08_2025_22_30_02](https://github.com/user-attachments/assets/1b534841-ffb2-4ab0-a6c5-61f9763ecfff)
+<br>In order to calculate the Threshold voltage, the linear part of the plot must be extended. Now, the x intercept of this extended plot gives the value of the threshold voltage of the device that is being simulated.
+<br>
+<h3>Part 2: CMOS voltage transfer characteristics (VTC)</h3>
+ <h4>What was learnt</h4>
+ In this Topic we will explore the CMOS topic . Introduce standard MOS voltage parameters creating CMOS using NMOS  and PMOS and plot load current for PMOS and NMOS and at last merge both the curves of NMOS and PMOS to plot VTC.
+<br>MOSFET As a Switch: 
+<br>Characteristic of MOS device :
+<br>Transistor works whenever : |Vgs| > Vt
+<br>Transistor acts as a switch with two conditions: 
+<br>1.	With infinite OFF resistance when |vgs|<|Vt|
+<br>2.	With finite ON resistance when |Vgs|>|Vt|
+<br>CMOS: complementary MOS
+<br>NMOS+ PMOS = CMOS
+<br>For understanding CMOS first have to understand PMOS and NMOS and their voltage current parameters.
+<br>1.	When Vin is LOW and equal to ‘0V’ then (PMOS turned ON and NMOS turned OFF)
+<br>2.	When Vin = Vdd, for PMOS direct path exists between Vout and Vss resulting Vout=0.
+<br>For NMOS Vout = Vdd
+<br>CMOS will be made using combination of PMOS and NMOS , Where
+<br>•	G= gate
+<br>•	S= source
+<br>•	D= drain
+<br>•	Vgs= Gate- Source voltage
+<br>•	Vds = Drain – Source voltage
+<br>•	P,N = PMOS and NMOS respectively
+<br>•	Idsn= Drain Source current through NMOS
+<br>•	Idsp= Drain Source current through PMOS
+<br>VTC
+<br>1.	To obtain load curve for NMOS and PMOS first have to obtain Idsn V/s Vdsn curve for NMOS and PMOS respectively
+<br>By observations , 
+<br>Vgsn= Vin-Vss = Vin
+<br>VdsN= ‘Vout’
+<br>Vgsp = ‘Vin – Vdd’ 
+<br>Vdsp = Vout – Vdd
+<br>For the relationship between the currents: Idsp=-Idsn
+<br>Load curve for PMOS transistor in CMOS inverter
+<br>
+
+
 
 
 
