@@ -491,15 +491,59 @@ run
 <br>-Vm is the switching threshold voltage
 <br>-Vt is the threshold voltage
 <br>-Vdd is the supply voltage
-<br>
-|(Wp/Lp)   | (x.Wn/Ln)   | Rise Delay   |    | Col5   |
-|--------|--------|--------|--------|--------|
-| Row1C1 | Row1C2 | Row1C3 | Row1C4 | Row1C5 |
-| Row2C1 | Row2C2 | Row2C3 | Row2C4 | Row2C5 |
-| Row3C1 | Row3C2 | Row3C3 | Row3C4 | Row3C5 |
-| Row4C1 | Row4C2 | Row4C3 | Row4C4 | Row4C5 |
-| Row5C1 | Row5C2 | Row5C3 | Row5C4 | Row5C5 |
-| Row6C1 | Row6C2 | Row6C3 | Row6C4 | Row6C5 |
+<br><table>
+  <tr>
+    <th>(Wp/Lp)</th>
+    <th>(x.Wn/Ln)</th>
+    <th>Rise Delay</th>
+    <th>Fall Delay</th>
+    <th>Vm</th>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>1.(Wn/Ln)</td>
+    <td>148 ps</td>
+    <td>71 ps</td>
+    <td>0.99 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>2.(Wn/Ln)</td>
+    <td>80 ps</td>
+    <td>76 ps</td>
+    <td>1.2 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>3.(Wn/Ln)</td>
+    <td>57 ps</td>
+    <td>80 ps</td>
+    <td>1.25 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>4.(Wn/Ln)</td>
+    <td>45 ps</td>
+    <td>84 ps</td>
+    <td>1.35 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>5.(Wn/Ln)</td>
+    <td>37 ps</td>
+    <td>88 ps</td>
+    <td>1.4 V</td>
+  </tr>
+  <tr>
+    <td>Row6C1</td>
+    <td>Row6C2</td>
+    <td>Row6C3</td>
+    <td>Row6C4</td>
+    <td>Row6C5</td>
+  </tr>
+</table>
+
+
 
 
 
