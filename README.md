@@ -491,6 +491,7 @@ run
 <br>-Vm is the switching threshold voltage
 <br>-Vt is the threshold voltage
 <br>-Vdd is the supply voltage
+<br>We experimented with the sizes of the PMOS with respect to the sizes of NMOS and came up with the following conclusions
 <br><table>
   <tr>
     <th>(Wp/Lp)</th>
@@ -535,6 +536,137 @@ run
     <td>1.4 V</td>
   </tr>
 </table>
+<br>From the table, we can conclude the following:
+<li>When (Wp/Lp) equals twice (Wn/Ln), the rise and fall delays are nearly equal.</li>
+<li>This equal rise-fall delay makes (Wp/Lp) = 2 × (Wn/Ln) ideal for clock inverters or buffers.</li>
+<li>Other (Wp/Lp) ratios can still serve as regular inverters or buffers and are often preferred for data paths.</li>
+<li>The switching threshold is very low for both (Wp/Lp) = 2 × (Wn/Ln) and (Wp/Lp) = 3 × (Wn/Ln), as well as for (Wp/Lp) = 4 × (Wn/Ln) and (Wp/Lp) = 5 × (Wn/Ln).</li>
+<li>Increasing Wp/Lp significantly reduces the rise delay because the output capacitor charges faster due to the larger transistor area.</li>
+<li>The resistance of the PMOS transistor is approximately 2.5 times that of the NMOS transistor.</li>
+<br>
+<h2>CMOS Noise Margin robustness evaluation</h2>
+<br>
+<h3>Part 1: Static behavior evaluation- CMOS inverter robustness- Noise margin</h3>
+<br>In 4th session ,the robustness of a CMOS inverter was studied through the concept of noise margins. The key parameters Voh, Vih, Vil, Vol and the equations for NMh and NMl were derived. In the lab, noise margins were measured for an inverter with (Wp/Lp) = 2.77 × (Wn/Ln).
+
+<br>**Introduction to noise margin**
+<br>Ideal and actual Input-Output characteristics of an inverter were observed:
+<br>Ideal: Sharp transition between logic 0 and logic 1
+………figure…………
+<br>When Vin = 0,  Vout = Vdd
+<br>If Vin =vdd/2, Vout will tends to zero/ becomes Zero.
+<br>Slope, dy/dx = Vd/0 = infinite
+<br>Actual: Finite slope, leading to undefined region .
+…..figure………..
+<br>**Conclusion :**  From above figure  . We observe that
+<br>1.	Vil is Input Low Voltage (Vil could be Vdd/4) : input voltage level between 0 and Vil will be treated as logic '0'.
+<br>2.	Voh is Output High Voltage (Vih < Voh <= Vdd) : Any output voltage level between Voh and Vdd will be treated as logic '1'.
+<br>3.	Vih is Input High Voltage (Vih could be 3.Vdd/4) : Any input voltage level between Vih and Vdd will be treated as logic '1'.
+<br>4.	Vol is Output Low Voltage (0 <= Vol < Vil) : Any output voltage level between 0 and Vol will be treated as logic '0'.
+<br>Actual graph  of an inverter were observed and they were plotted on a scale:
+……………………figure………………
+<br>Curve graph plotted because of non idality of diode. Slope of above graph is -1 .
+
+<br>I/o characteristic plotted on scale ( using previous graphs):
+…………………..figure………………
+<br>1.	NMh (Noise Margin High)  :   Any voltage level in "NMh" range will be detected as logic '1'.
+<br>2.	NMl (Noise Margin Low) : Any voltage level in "NMl" range will be detected as logic '0'.
+<br>3.	Undefined region  ( Any input between Vil and Vih ) : indefinite logic level
+<br>**Noise Margins :** 
+<br>•	NMh = Voh – Vih
+<br>•	NMl = Vil – Vol
+
+<br>**Noise margin Summary :** 
+…………………..figure…………….
+<br>1.	 Vol to Vil → Glitches in this range are safe, as the signal is still recognized as logic ‘0’.
+<br>2.	 Vil to Vih (Undefined Region) → Glitches here are unsafe, since the logic level is uncertain and may cause errors.
+<br>3.	Vih to Voh → Glitches in this range are critical, as they are always interpreted as logic ‘1’ and must be eliminated.
+<br>The noise margins of the inverter at different values of Wp/Lp were observed and they were as follows:
+<br><table>
+  <tr>
+    <th>(Wp/Lp)</th>
+    <th>(x.Wn/Ln)</th>
+    <th>NMh</th>
+    <th>NMl</th>
+    <th>Vm</th>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>1.(Wn/Ln)</td>
+    <td>0.3</td>
+    <td>0.3</td>
+    <td>0.99 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>2.(Wn/Ln)</td>
+    <td>0.35</td>
+    <td>0.3</td>
+    <td>1.2 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>3.(Wn/Ln)</td>
+    <td>0.4</td>
+    <td>0.3</td>
+    <td>1.25 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>4.(Wn/Ln)</td>
+    <td>0.42</td>
+    <td>0.27</td>
+    <td>1.35 V</td>
+  </tr>
+  <tr>
+    <td>(Wp/Lp)</td>
+    <td>5.(Wn/Ln)</td>
+    <td>0.42</td>
+    <td>0.27</td>
+    <td>1.4 V</td>
+  </tr>
+</table>
+<br>Several conclusions can be drawn from the table above:
+<li>When (Wp/Lp) equals twice (Wn/Ln), the Noise Margin High (NMh) increases because the PMOS transistor effectively holds the charge on the capacitance. Increasing the PMOS size creates a low-resistance path from the supply to the capacitance, allowing it to retain charge longer, thus enhancing NMh.</li>
+<li>At (Wp/Lp) equal to four times (Wn/Ln), there is a decrease in Noise Margin Low (NMl) since the NMOS becomes weaker relative to the PMOS.</li>
+<li>For (Wp/Lp) equal to five times (Wn/Ln), NMh stabilizes and reaches a near-constant value.</li>
+<li>NMl remains largely unaffected, but NMh improves by approximately 120 mV, which remains within acceptable limits, demonstrating the CMOS inverter’s robustness in terms of noise margin.</li>
+
+<br>Lastly, the figure below outlines the suitable regions for both digital and analog applications.
+<br>
+ <h4>Lab Activity</h4>
+ <br>Following code is used:
+ <br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+<br>![WhatsApp Image 2025-08-20 at 22 38 10](https://github.com/user-attachments/assets/a0512ed5-363b-4b66-af29-7fa27df05246)
+
 
 
 
