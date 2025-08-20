@@ -112,7 +112,14 @@ In the first session of the workshop, we began by understanding the significance
     <br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
     <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate.
     <br>
-     <h3>Part 1: NMOS Resistive region and Saturation region of operation</h3>
+     <h3>Part 2: NMOS Resistive region and Saturation region of operation</h3>
+     <h4>What was learnt</h4>
+     The resistive region, also known as linear region of operation, occurs when the transistor operates with Vgs=Vt, and further changes can be observed when Vgs>Vt. In this region, the induced charge Qi is proportional to (Vgs-Vt). For analysis, we took 
+    <br>Vgs=1V, Vds=0.05V, Vt=0.45V
+    <br>When Vds=0, the voltage across the n channel remains constant but not the case when Vds is applied due to potential gradient across the channel as source is at 0V but drain at 0.05V.
+    <br>Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length. Let V(x) be the voltage at any point 'x' along the channel. Now, Vgs-V(x) is the gate-to-channel voltage at that point.
+<br>Therefore, in the channel, induced charge at any point 'x'
+    
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
