@@ -454,6 +454,28 @@ run
 <br>Left-click on the output’s falling edge at Vdd/2 and record x0, y0.
 <br<Likewise, click on the input’s rising edge at Vdd/2.
 <br>The difference in the x-values of these points is the fall delay.
+<br>
+<h3>Part 2: Static behavior evaluation- CMOS inverter robustness- Switching threshold</h3>
+ <h4>What was learnt</h4>
+ <br>The CMOS inverter is considered highly robust because its input-output curve maintains the same overall shape, even when the (W/L) ratios change.
+<br>
+    <li>Key aspects evaluated for static behavior and robustness include:</li>
+    -Switching threshold
+    -Noise margins
+    -Variations in power supply
+    -Changes in device characteristics
+    <br>Switching Threshold (Vm)
+    <br>It is the point where Vin = Vout
+    <br>Graphical method to find Vm is to draw a line across the graph of output voltage to input voltage of a CMOS inverter starting at the origin and ending at the opposite diagonal of the plot (basically a line with a 45 degree inclination with the x-axis). Now, the x-coordinate of the point of intersection of this line and the curve is the switching threshold.
+<br>Vm when (Wp/Lp) is 1.5 is approximately equal to 0.98V and when (Wp/Lp) is 3.75 it is approximately equal to 1.2V
+<br>Wp and Lp in the above section are Width of PMOS channel and Length of PMOS channel
+<br>At Vm, both PMOS and NMOS are turned 'ON' because Vgs almost crossed the threshold region for both of them.
+<br>A few observations can be made from the information stated above,
+<br>Therefore, Vgs = Vds
+<br>IdsP = - IdsN which means that IdsP + IdsN = 0
+<br>We know the equations for IdsN and IdsP which are as stated below:
+<br>![day3](https://github.com/user-attachments/assets/7d894d25-d584-4c87-bbcb-c431bf1e259d)
+
 
 
 
