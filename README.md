@@ -74,7 +74,7 @@ This workshop was structured into five sections:
   <li>References</li>
 </ul>
 <h2>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</h2>
-
+In the first session of the workshop, we began by understanding the significance of SPICE as a powerful tool for circuit design and analysis, demonstrating how it can be used to tune the cell delays by varying the W/L ratio of the transistors. The fundamentals of NMOS transistors were then introduced, with a focus on threshold voltage and the different regions of operation—cut-off, resistive, and saturation. This was followed by a detailed study of the relationship between drain current (Id) and drain-to-source voltage (Vds). The session concluded with the practical setup of SPICE, where we simulated Id–Vds characteristics at varying gate-to-source voltages (Vgs), reinforcing both theoretical concepts and hands-on application.
 <ul>
   <li>Drain current (Id)</li>
   <li>Drain-to-Source Voltage (Vds)</li>
