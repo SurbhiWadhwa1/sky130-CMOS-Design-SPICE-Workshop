@@ -150,7 +150,7 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
 <br>Looks like a perfect current source but in reality it is not true because the effective conductive channel length can be still changed by applying Vds.
 <br>As Vds increases, more area of channel near the drain terminal will disappear resulting in decrease in effective channel length.
 <br><b>New modified drain current equation</b>
-    <br>![WhatsApp Image 2025-08-20 at 19 23 52 (1)](https://github.com/user-attachments/assets/cfc54f83-8c83-410f-9924-793972e8589b)
+    <br>I<sub>D</sub> = (K<sub>n'</sub>)/2) (W/L) [ ((V<sub>GS</sub> − V<sub>T</sub>))<sup>2</sup>[1+YV<sub>DS</sub>]
 
 
 <br>Here, λ is the channel length modulation
