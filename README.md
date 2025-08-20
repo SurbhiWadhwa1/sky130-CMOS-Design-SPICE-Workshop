@@ -20,7 +20,7 @@ This workshop was structured into five sections:
 <br>
 **INDEX:**
     <ul>
-      <li>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
+      <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
         <ul>
           <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
           -What was learnt
@@ -31,7 +31,7 @@ This workshop was structured into five sections:
           <br>-Lab Activity
         </ul>
       </li>
-      <li>Day 2: Velocity Saturation and basics of CMOS inverter VTC
+      <li>Velocity Saturation and basics of CMOS inverter VTC
         <ul>
           <li>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</li>
           -What was learnt
@@ -40,7 +40,7 @@ This workshop was structured into five sections:
           -What was learnt
         </ul>
       </li>
-      <li>Day 3: CMOS Switching threshold and dynamic simulations
+      <li>CMOS Switching threshold and dynamic simulations
         <ul>
           <li>Part 1: Voltage transfer characteristics and SPICE simulations</li>
           -What was learnt
@@ -49,14 +49,14 @@ This workshop was structured into five sections:
           -What was learnt
         </ul>
       </li>
-      <li>Day 4: CMOS Noise Margin robustness evaluation
+      <li>CMOS Noise Margin robustness evaluation
         <ul>
           <li>Part 1: Static behavior evaluation- CMOS inverter robustness- Noise margin </li>
           -What was learnt
           <br>-Lab Activity
         </ul>
       </li>
-      <li>Day 5: CMOS power Supply and device variation robustness evaluation
+      <li>CMOS power Supply and device variation robustness evaluation
         <ul>
           <li>Part 1: Static behavior evaluation- CMOS inverter robustness- Power supply variation </li>
           -What was learnt
@@ -73,7 +73,7 @@ This workshop was structured into five sections:
   <li>Conclusion</li>
   <li>References</li>
 </ul>
-<h2>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</h2>
+<h2>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</h2>
 
 <ul>
   <li>Drain current (Id)</li>
