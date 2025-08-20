@@ -160,6 +160,34 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
 <br>These are the 1st level inputs
 <br>Levels of SPICE simulation- 1st level input is SPICE model parameters+Spice netlist, these are given to the SPICE Software to get required SPICE waveform.
 <br>https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg
+<br>A node is a point that connects two terminals. When two terminals of the same device are short-circuited, the node exists between them. In most cases, however, a node connects multiple devices. Nodes can be identified in a SPICE netlist, where every wire linking different components corresponds to a unique node.
+<h4>What was learnt</h4>
+<br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.65 l=0.25
+R1 n1 in 55
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vdd 0 1.8 0.1 Vin 0 1.8 0.2
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
 
 
 
