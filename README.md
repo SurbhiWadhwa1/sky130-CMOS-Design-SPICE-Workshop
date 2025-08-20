@@ -220,6 +220,21 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>Solve above formulae using continuity equation 
 <br>Then re- deriving drain current using the boundary conditions.
 <br>Id= -Vn(x). Qi(x).W
+<br>After substitiution, Id becomes too complex.
+<br>“lets try one model : OPERATINAL MODES”
+<br>There are 4 different modes :
+<br>1.	Cut off 
+<br>2.	Resistive
+<br>3.	Velocity saturation
+<br>4.	Saturation
+<br>(for long channel there is no velocity saturation)
+<br>Let's call (Vgs-Vt)=Vgt
+<br>I<sub>d</sub>=k<sub>n</sub>.[(V<sub>gt</sub>.V<sub>min</sub>)-(V<sub>min</sub><sup>2</sup>/2][1+λV<sub>ds</sub>]
+<br>In Id equation λV<sub>ds</sub> vanishes for low value of Vds
+<br>Vmin = min(Vgt, Vds, Vsat)
+<br>where Vsat is Technology parameter (saturation voltage) 
+<br>
+
 
  
 
