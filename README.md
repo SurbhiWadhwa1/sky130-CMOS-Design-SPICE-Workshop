@@ -19,4 +19,4 @@ This workshop was structured into five sections:
 <br>Each section included practical lab exercises using SPICE- which enables us to apply theory to simulate circuits, study the waveforms and observe real device behaviour practically.
 <br>
 **INDEX:**
-<br>~Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
+<br><li>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</li>
