@@ -121,6 +121,10 @@ In the first session of the workshop, we began by understanding the significance
 <br>Therefore, in the channel, induced charge at any point 'x' Q<sub>i</sub>(x) ∝ − ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
 <br>Formula for charge induced at any point ‘x’
 <br>Q<sub>i</sub>(x) = − C<sub>ox</sub> ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
+<br>Gate oxide capacitance formula C<sub>ox</sub> = &epsilon;<sub>ox</sub> / t<sub>ox</sub>
+<br>where
+    <br>εox is the oxide permittivity = 3.97εo = 3.510e-11 F/m
+    <br>tox is the oxide thickness
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
