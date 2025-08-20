@@ -676,7 +676,82 @@ display
 <br>For noise margin high we need Voh-Vih and in this case Voh=y0 and Vih=x1
 <br>For noise margin low we need Vil-Vol and in this case Vil=x0 and Vol=y1
 <br>Therefore, we get NMh = 0.725463 and NMl = 0.673428
+<br>
+<h2>CMOS power Supply and device variation robustness evaluation</h2>
+<br>In 5th session, the impact of power supply variation on device gain and its pros and cons was studied. The influence of manufacturing variations such as etching and oxide thickness was also observed. Finally, the behavior of strong/weak PMOS and NMOS combinations was analyzed, highlighting transitions from Weak PMOS–Strong NMOS to Strong PMOS–Weak NMOS.
+<br>
+<h3>Part 1: Static behavior evaluation- CMOS inverter robustness- Power supply variation</h3>
+<h4>What was learnt</h4>
+<br>Power supply scaling : even we change supply CMOS behaviour should not be changing. 
+<br>When CMOS technology scales from 250 nm to advanced nodes like 20 nm, the supply voltage (Vdd) is also reduced (e.g., from ~1 V down to ~0.7 V or lower) to limit power dissipation and reliability issues.  
+<br>A CMOS inverter can even operate at 0.5 V :
+<br>Advantages of 0.5 V Operation
+<br>1.	Higher gain (≈50% improvement).
+<br>2.	Much lower energy consumption (≈90% reduction).
+<br>Disadvantages of 0.5 V Operation
+<br>1.	Performance degradation: The lower supply causes weaker drive strength, making rising/falling edges slower.
+<br>2.	Incomplete switching: At 0.5 V, the inverter may not fully charge or discharge the load capacitance, affecting logic reliability.
+<br>
+<h4>Lab Activity</h4>
+<br>To perform the lab activity for power supply scaling, we need the following code:
+<br>*Model Description
+.param temp=27
 
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=1 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.36 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+.control
+
+let powersupply = 1.8
+alter Vdd = powersupply
+        let voltagesupplyvariation = 0
+        dowhile voltagesupplyvariation < 6
+        dc Vin 0 1.8 0.01
+        let powersupply = powersupply - 0.2
+        alter Vdd = powersupply
+        let voltagesupplyvariation = voltagesupplyvariation + 1
+      end
+
+plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.out vs in xlabel "input voltage(V)" ylabel "output voltage(V)" title "Inveter dc characteristics as a function of supply voltage"
+
+.endc
+
+.end
+<br>![WhatsApp Image 2025-08-20 at 23 04 15](https://github.com/user-attachments/assets/1e5871cc-6b37-4ba5-8af8-ccce022abba6)
+<br>![WhatsApp Image 2025-08-20 at 23 04 15 (1)](https://github.com/user-attachments/assets/0409dd66-0419-4682-89e0-66ec7e0245a3)
+
+
+
+
+
+<br><h3>Part 2: Static behavior evaluation- CMOS inverter robustness- Device variation</h3>
+<br>Device variation arises from two main sources:
+
+<br>Etching Process Variation
+<br>Oxide Thickness
+<br>
+**Etching Process Variation:**
+<br>The etching process plays a crucial role in defining the physical structures within the CMOS inverter layout. It is a vital fabrication step that determines the width and height of the device features. These structural dimensions directly influence the inverter’s delay characteristics.
+
+<br>In the CMOS inverter layout:
+<br>The P-diffusion region is shown in green.
+<br>The poly-silicon area is marked in red.
+<br>The metal layers appear in blue.
+<br>The N-diffusion region is highlighted in yellow.
+<br>Contacts between layers are represented by black crosses.
+<br>The poly-silicon layer thickness corresponds to the gate length, determining the technology node (e.g., 20nm, 30nm, 45nm). The thickness of the P-diffusion and N-diffusion layers correspond to the gate widths of the PMOS and NMOS transistors, respectively. The gate width is defined by the overlap area between the diffusion layer and the poly-silicon layer.
+
+<br>The fabrication process involves numerous chemicals, water, and gases, which can cause deviations from the ideal device structures, leading to variations in the final device characteristics.
 
 
 
