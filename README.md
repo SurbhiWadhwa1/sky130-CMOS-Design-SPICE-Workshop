@@ -110,7 +110,9 @@ In the first session of the workshop, we began by understanding the significance
     <br>
     <br><b>Fermi potential equation</b>
     <br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
-    <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate
+    <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate.
+    <br>
+     <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
