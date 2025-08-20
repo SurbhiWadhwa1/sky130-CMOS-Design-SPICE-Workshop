@@ -118,7 +118,9 @@ In the first session of the workshop, we began by understanding the significance
     <br>Vgs=1V, Vds=0.05V, Vt=0.45V
     <br>When Vds=0, the voltage across the n channel remains constant but not the case when Vds is applied due to potential gradient across the channel as source is at 0V but drain at 0.05V.
     <br>Let the effective channel length be L and 'x' axis be along the channel length and 'y' axis be perpendicular to the channel length. Let V(x) be the voltage at any point 'x' along the channel. Now, Vgs-V(x) is the gate-to-channel voltage at that point.
-<br>Therefore, in the channel, induced charge at any point 'x'
+<br>Therefore, in the channel, induced charge at any point 'x' Q<sub>i</sub>(x) ∝ − ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
+<br>Formula for charge induced at any point ‘x’
+<br>Q<sub>i</sub>(x) = − C<sub>ox</sub> ( V<sub>GS</sub> − V(x) − V<sub>T</sub> )
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
