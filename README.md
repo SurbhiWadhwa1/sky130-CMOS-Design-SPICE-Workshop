@@ -78,7 +78,7 @@ In the first session of the workshop, we began by understanding the significance
 <ul>
  <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
     <h4>What was learnt</h4>
-    In this we learnt how SPICE can be used to study the device behaviour by simulating the circuits and analyzing the waveforms. W/L ratio is an important parameter in deciding the cdevice performance. 
+    In this we learnt how SPICE can be used to study the device behaviour by simulating the circuits and analyzing the waveforms. W/L ratio is an important parameter in deciding the device performance. We study the structure of NMOS- it consists of a p-type substrate and has 4 terminals- source, drain
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
