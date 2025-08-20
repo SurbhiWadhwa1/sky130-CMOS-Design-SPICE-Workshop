@@ -438,6 +438,22 @@ run
 .end
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_39_24](https://github.com/user-attachments/assets/991cbf04-912a-4cfa-8e3b-3580e4d4faa9)
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_39_44](https://github.com/user-attachments/assets/a788378a-605c-4d8b-9e9e-11f30c964485)
+<br>
+**Rise delay** is the time difference between when the input drops through Vdd/2 and when the output rises through Vdd/2.
+<br>
+**Fall delay** is the time difference between when the input rises through Vdd/2 and when the output falls through Vdd/2.
+<br>
+<li>To find rise delay:</li>
+<br>Zoom in on the plot section where the input is falling and the output is rising around Vdd/2 by right-clicking and dragging to select.
+<br>Left-click on the output’s rising edge at Vdd/2 to note the x0, y0 values shown in the terminal.
+<br>Do the same for the input waveform’s falling edge at Vdd/2.
+<br>The difference between the x-values at these points gives the rise delay.
+<br>
+<li>To find fall delay:</li>
+<br>Zoom in on the section of the plot where the input is rising and the output is falling near Vdd/2.
+<br>Left-click on the output’s falling edge at Vdd/2 and record x0, y0.
+<br<Likewise, click on the input’s rising edge at Vdd/2.
+<br>The difference in the x-values of these points is the fall delay.
 
 
 
