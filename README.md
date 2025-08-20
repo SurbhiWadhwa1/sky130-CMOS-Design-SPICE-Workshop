@@ -20,3 +20,43 @@ This workshop was structured into five sections:
 <br>
 **INDEX:**
 <br><li>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</li>
+<ul>
+  <li>Workshop Sections
+    <ul>
+      <li>NMOS Fundamentals
+        <ul>
+          <li>Drain current (Id)</li>
+          <li>Drain-to-Source Voltage (Vds)</li>
+          <li>Characteristic plots</li>
+        </ul>
+      </li>
+      <li>Inverter VTC & Velocity Saturation
+        <ul>
+          <li>CMOS inverter behavior</li>
+          <li>Id–Vgs analysis</li>
+        </ul>
+      </li>
+      <li>Switching Threshold & Dynamic Simulations
+        <ul>
+          <li>PMOS/NMOS W/L ratio effects</li>
+          <li>Threshold voltage (Vm)</li>
+          <li>Dynamic simulations</li>
+        </ul>
+      </li>
+      <li>Noise Margin & Inverter Robustness
+        <ul>
+          <li>Noise margin evaluation</li>
+          <li>Inverter stability</li>
+        </ul>
+      </li>
+      <li>Power Supply & Device Variation
+        <ul>
+          <li>Supply voltage effects</li>
+          <li>Device variation impact</li>
+          <li>Inverter chains</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
