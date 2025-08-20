@@ -20,7 +20,7 @@ This workshop was structured into five sections:
 <br>
 **INDEX:**
     <ul>
-      <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
+      <li>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
         <ul>
           <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
           -What was learnt
@@ -31,7 +31,7 @@ This workshop was structured into five sections:
           <br>-Lab Activity
         </ul>
       </li>
-      <li>Velocity Saturation and basics of CMOS inverter VTC
+      <li>Day 2: Velocity Saturation and basics of CMOS inverter VTC
         <ul>
           <li>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</li>
           -What was learnt
@@ -40,10 +40,13 @@ This workshop was structured into five sections:
           -What was learnt
         </ul>
       </li>
-      <li>Switching Threshold & Dynamic Simulations
+      <li>Day 3: CMOS Switching threshold and dynamic simulations
         <ul>
-          <li>PMOS/NMOS W/L ratio effects</li>
-          <li>Threshold voltage (Vm)</li>
+          <li>Part 1: Voltage transfer characteristics and SPICE simulations</li>
+          -What was learnt
+          <br>-Lab Activity
+          <li>Part 2: Static behavior evaluation- CMOS inverter robustness- Switching threshold</li>
+          -What was learnt
           <li>Dynamic simulations</li>
         </ul>
       </li>
