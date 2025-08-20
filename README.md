@@ -125,6 +125,18 @@ In the first session of the workshop, we began by understanding the significance
 <br>where
     <br>εox is the oxide permittivity = 3.97εo = 3.510e-11 F/m
     <br>tox is the oxide thickness
+
+    <br> From device point of view, we have 2 types of current
+    <br>Drift Current: Current due to potential difference
+    <br>Diffusion Current: Current due to difference in carrier concentration
+    <br>Here we are only talking about the drift current (Id) that is from source to drain.
+    <br> Id=velocity of charge carriers* available charge over channel width
+
+    <br> Drift current (Id) formula
+    <br>I<sub>D</sub> = μ<sub>n</sub> C<sub>ox</sub> (W/L) [ (V<sub>GS</sub> − V<sub>T</sub>) V<sub>DS</sub> − (V<sub>DS</sub><sup>2</sup> / 2) ]
+    <br>The term µn.Cox is denoted by kn' and kn' is known as process transconductance
+    <br>kn'.(W/L) is denoted by kn and kn is also known as gain factor
+    <br>
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
