@@ -200,20 +200,22 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>At the end of this session, we studied about the operation of MOSFET as a switch and analysis of the CMOS inverter characteristics.
 <h3>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</h3>
  <h4>What was learnt</h4>
- <br>![132864852-2f667ae5-a71c-4e67-975a-e4c137843114](https://github.com/user-attachments/assets/e0f258a7-eb52-4e98-a7c5-1c4ca2cab8d6)
-
- We did some SPICE Simulation for two  devices whose channel width and channel length is different but there width by length ratio(W/L) is same .
+  We did some SPICE Simulation for two  devices whose channel width and channel length is different but there width by length ratio(W/L) is same .
 <br>Case1-    W=1.8u, L=1.2u device (W/L=1.5)
 <br>Case2-     W=0.375U, L=0.25 device (W/L=1.5)
 <br>As W/L ratio is constant then (Id) at saturation region should be constant . 
 <br>Simulate Id  v/s VGS  graph to the difference between two regions
 <br>For case 1 – drain current quadratic dependence 
 <br>case 2- (Short channel device) Id quadratic change for small current but on increasing gate voltage current increases linearly because of velocity saturation.
+<br><b>Formulae of velocity and mobility</b>
+<br>v<sub>n</sub>(m/s)=u<sub>n</sub>.dV/dx
 <br>
 <b>Velocity saturation effect for Short channel length</b>
 <br>For lower value of EF velocity tends to linear function of EF but after some time becomes constant.
-<br<b>>Formulae of velocity and mobility</b>
-<br>v<sub>n</sub>(m/s)=u<sub>n</sub>.dV/dx
+<br>Vn(m/S) = linear for ε<=εc
+<br>Vn(m/S) = constant for ε>=εc
+<br>v<sub>n</sub>(m/s)=u<sub>n</sub>. ε/(1+ ε/ε<sub>c</sub>), for ε<=εc
+
 <br>Solve above formulae using continuity equation 
 <br>Then re- deriving drain current using the boundary conditions.
 <br>Id= -Vn(x). Qi(x).W
