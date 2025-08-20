@@ -8,10 +8,8 @@ Brief description of the course
 VLSI System Design organized a ten day workshop on CMOS circuit design and SPICE simulation using SKY130 technology.The workshop offered an in-depth knowledge of the MOSFET fundamentals, CMOS inverter behaviour, switching thresholds, noise margins, dynamic simulations and how the power supply and device variations affect the circuit, all reinforced through hands-on CMOS/SPICE exercises, including circuit simulation, waveform analysis and real device exploration.
 <br>
 This workshop was structured into five sections:
-<br>
-1) NMOS Fundamentals: Basics of drain current (Id), drain-to-source voltage (Vds) and their characteristic plot
-<br>
-2) Velocity Saturation and Basics of CMOS Inverter voltage tranfer characteristics and plot between Id and Vgs and plot to determine Vt
+<br>1) NMOS Fundamentals: Basics of drain current (Id), drain-to-source voltage (Vds) and their characteristic plot
+<br>2) Velocity Saturation and Basics of CMOS Inverter voltage tranfer characteristics and plot between Id and Vgs and plot to determine Vt
 <br>
 3) Switching threshold and dynamic simulations: Analyzing PMOS/NMOS W/L ratios and threshold voltage (Vm) through practical simulations
 <br>
