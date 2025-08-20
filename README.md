@@ -132,7 +132,8 @@ In the first session of the workshop, we began by understanding the significance
 <br>Here we are only talking about the drift current (Id) that is from source to drain.
 <br> Id=velocity of charge carriers* available charge over channel width
 
-<br> Drift current (Id) formula
+<br>
+<b>Drift current (Id) formula</b>
 <br>I<sub>D</sub> = μ<sub>n</sub> C<sub>ox</sub> (W/L) [ (V<sub>GS</sub> − V<sub>T</sub>) V<sub>DS</sub> − (V<sub>DS</sub><sup>2</sup> / 2) ]
 <br>The term µn.Cox is denoted by kn' and kn' is known as process transconductance
 <br>kn'.(W/L) is denoted by kn and kn is also known as gain factor
@@ -141,9 +142,17 @@ In the first session of the workshop, we began by understanding the significance
 <br>For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
 <br>Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
 <br> Dependance of Id on Vds in pinch-off region: The chanel voltage is denoted with Vgs-Vds.
+<br>
 <b>Pinch-off condition</b> is when Vgs-Vds=Vt
 <br>When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
-When Vgs-Vds<Vt, there is no channel present near the Drain terminal
+When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes (kn/2).(Vgs-Vt)^2
+<br>Looks like a perfect current source but in reality it is not true because the effective conductive channel length can be still changed by applying Vds.
+<br>As Vds increases, more area of channel near the drain terminal will disappear resulting in decrease in effective channel length.
+<br><b>New modified drain current equation</b>
+<br>$$
+I_d = \frac{k'n}{2} \cdot \frac{W}{L} \cdot (V{gs} - V_t)^2 \cdot \big[1 + \lambda V_{ds}\big]
+$$
+
 
     
   <li>Drain-to-Source Voltage (Vds)</li>
