@@ -404,6 +404,11 @@ display
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_24_58](https://github.com/user-attachments/assets/3d3072b5-3384-4986-9199-c47fded29087)
 <br>![VirtualBox_vsdworkshop_19_08_2025_21_25_10](https://github.com/user-attachments/assets/1e6e755e-d79e-49a5-8670-a78f09419d7b)
 <br>
+<li>To find the switching threshold voltage (Vm), look for the region where Vout is about equal to Vin on the plot.</li>
+<li>Right-click and drag to select and zoom in on this area a couple of times until the Vm point is clear.</li>.
+<li>Left-click near the spot on the curve where Vout should be nearly equal to Vin.</li>
+<li>The terminal will show x0 and y0 values.</li>
+<li>Since Vm is where Vout equals Vin, you’ll see x0 ≈ y0, so x0 = y0 = Vm.</li>
 <br>
 <br>For performing the transient analysis, the following code is required:
 <br>*Model Description
