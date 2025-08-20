@@ -28,14 +28,14 @@ This workshop was structured into five sections:
           -What was learnt
           <li>Introduction to SPICE</li>
           -What was learnt
-          -Lab Activity
+          <br>-Lab Activity
         </ul>
       </li>
       <li>Velocity Saturation and basics of CMOS inverter VTC
         <ul>
           <li>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</li>
           -What was learnt
-          -Lab Activity
+          <br>-Lab Activity
           <li>Part 2: CMOS voltage transfer characteristics (VTC)</li>
           -What was learnt
         </ul>
