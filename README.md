@@ -47,20 +47,23 @@ This workshop was structured into five sections:
           <br>-Lab Activity
           <li>Part 2: Static behavior evaluation- CMOS inverter robustness- Switching threshold</li>
           -What was learnt
-          <li>Dynamic simulations</li>
         </ul>
       </li>
-      <li>Noise Margin & Inverter Robustness
+      <li>Day 4: CMOS Noise Margin robustness evaluation
         <ul>
-          <li>Noise margin evaluation</li>
-          <li>Inverter stability</li>
+          <li>Part 1: Static behavior evaluation- CMOS inverter robustness- Noise margin </li>
+          -What was learnt
+          <br>-Lab Activity
         </ul>
       </li>
-      <li>Power Supply & Device Variation
+      <li>Day 5: CMOS power Supply and device variation robustness evaluation
         <ul>
-          <li>Supply voltage effects</li>
-          <li>Device variation impact</li>
-          <li>Inverter chains</li>
+          <li>Part 1: Static behavior evaluation- CMOS inverter robustness- Power supply variation </li>
+          -What was learnt
+          <br>-Lab Activity
+          <li>Part 2: Static behavior evaluation- CMOS inverter robustness- Device variation </li>
+          -What was learnt
+          <br>-Lab Activity
         </ul>
       </li>
     </ul>
