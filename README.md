@@ -475,8 +475,29 @@ run
 <br>IdsP = - IdsN which means that IdsP + IdsN = 0
 <br>We know the equations for IdsN and IdsP which are as stated below:
 <br>I<sub>dsN</sub>=k<sub>n</sub>.[([V<sub>m</sub>-V<sub>t</sub>].V<sub>dsatN</sub>)-V<sub>dsatN</sub><sup>2</sup>/2]
+<br>Similarly for PMOS we can replace Idsn by Idsp and Vm by Vm-Vdd, VdsatN by VdsatP
+<br>We ignore the 1+λVds because the term is very small and it makes the equations very difficult for hand calculations.
+<br>Since, IdsP + IdsN = 0
+<br>(W<sub>p</sub>/L<sub>p</sub>)/(W<sub>n</sub>/L<sub>n</sub>)={k<sub>n'</sub>.V<sub>satN</sub>.[(v<sub>m</sub>-V<sub>t</sub>)-V<sub>dsatN</sub>/2]}/{k<sub>p'</sub>.V<sub>satP</sub>.[(-v<sub>m</sub>+V<sub>dd</sub>+V<sub>t</sub>)+V<sub>dsatP</sub>/2]}
+<br>Here,
+<br>-Wp is the width of the channel in PMOS
+<br>-Lp is the length of the channel in PMOS
+<br>-Wn is the width of the channel in NMOS
+<br>-Ln is the length of the channel in NMOS
+<br>-kn' is the process transconductance of the NMOS
+<br>-kp' is the process transconductance of the PMOS
+<br>-VdsatN is the Vdsat of the NMOS
+<br>-VdsatP is the Vdsat of the PMOS
+<br>-Vm is the switching threshold voltage
+<br>-Vt is the threshold voltage
+<br>-Vdd is the supply voltage
 <br>
 
+
+
+
+
+<br>
 
 
 
