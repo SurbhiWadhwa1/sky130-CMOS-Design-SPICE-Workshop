@@ -141,7 +141,8 @@ In the first session of the workshop, we began by understanding the significance
 <br>When Vds <= (Vgs-Vt), the MOSFET is in linear region of operation
 <br>For this region, Id=kn.(Vgs-Vt).Vds as (Vds^2)/2 is a very small amount in this case
 <br>Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
-<br> Dependance of Id on Vds in pinch-off region: The chanel voltage is denoted with Vgs-Vds.
+<br> Dependance of Id on Vds in pinch-off region: The chanel voltag
+e is denoted with Vgs-Vds.
 <br>
 <b>Pinch-off condition</b> is when Vgs-Vds=Vt
 <br>When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
@@ -149,9 +150,14 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
 <br>Looks like a perfect current source but in reality it is not true because the effective conductive channel length can be still changed by applying Vds.
 <br>As Vds increases, more area of channel near the drain terminal will disappear resulting in decrease in effective channel length.
 <br><b>New modified drain current equation</b>
-<br>$$
-I_d = \frac{k'n}{2} \cdot \frac{W}{L} \cdot (V{gs} - V_t)^2 \cdot \big[1 + \lambda V_{ds}\big]
-$$
+    <br>![Current](https://github.com/user-attachments/assets/dce96919-9339-4301-8a22-bacdddd178f7)
+<br>Here, λ is the channel length modulation
+    <br>
+<h3>Part 3: Introduction to SPICE</h3>
+<h4>What was learnt</h4>
+<br>
+
+
 
 
     
