@@ -233,7 +233,10 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>In Id equation λV<sub>ds</sub> vanishes for low value of Vds
 <br>Vmin = min(Vgt, Vds, Vsat)
 <br>where Vsat is Technology parameter (saturation voltage) 
-<br>
+<br>When Vgt is the smallest among Vgt, Vds, and Vdsat, the device operates in the saturation region.
+<br>When Vds is the smallest, the device operates in the resistive (linear) region.
+<br>When Vdsat is the smallest, the device operates in the velocity saturation region.
+<br>In general, current tends to increase at lower voltage nodes. Velocity saturation causes the device to enter saturation earlier than expected, limiting further current increase.
 
 
  
