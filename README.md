@@ -85,7 +85,8 @@ In the first session of the workshop, we began by understanding the significance
     <br>D stands for drain
     <br>B stands for body
     <br>Body terminal can be used to tune the threshold voltage.
-    <br>
+    <br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
+
     <b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
     <br>
     <b>Strong Inversion</b>- When Vgs is sufficiently large, the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
@@ -131,6 +132,7 @@ In the first session of the workshop, we began by understanding the significance
 <br>Diffusion Current: Current due to difference in carrier concentration
 <br>Here we are only talking about the drift current (Id) that is from source to drain.
 <br> Id=velocity of charge carriers* available charge over channel width
+<br>![Uploading WhatsApp Image 2025-08-20 at 23.32.14.jpeg…]()
 
 <br>
 <b>Drift current (Id) formula</b>
@@ -143,7 +145,8 @@ In the first session of the workshop, we began by understanding the significance
 <br>Vdds can be sweeped from 0V to (Vgs-Vt)V to make the device work in linear region of operation
 <br> Dependance of Id on Vds in pinch-off region: The chanel voltag
 e is denoted with Vgs-Vds.
-<br>
+<br>![WhatsApp Image 2025-08-20 at 23 32 14 (1)](https://github.com/user-attachments/assets/da4b26f3-dda6-48a3-bf45-b91488917c67)
+
 <b>Pinch-off condition</b> is when Vgs-Vds=Vt
 <br>When the Pinch-off phenomenon is started, the channel begins to disappear. Basically, the channel starts to disappear only from the Drain side acquiring a triangular shape.
 When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes (kn/2).(Vgs-Vt)^2
@@ -159,6 +162,8 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
 <br>SPICE model parameters also known as technological constant nodes, which come from foundaries and is listed in the model file which we provide to the engine. Example: Vt0, kn', λ, γ
 <br>These are the 1st level inputs
 <br>Levels of SPICE simulation- 1st level input is SPICE model parameters+Spice netlist, these are given to the SPICE Software to get required SPICE waveform.
+<br>![WhatsApp Image 2025-08-20 at 23 31 30](https://github.com/user-attachments/assets/fc3ecaea-061f-411b-8587-2342bcb3b391)
+
 <br>https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg
 <br>A node is a point that connects two terminals. When two terminals of the same device are short-circuited, the node exists between them. In most cases, however, a node connects multiple devices. Nodes can be identified in a SPICE netlist, where every wire linking different components corresponds to a unique node.
 <h4>Lab Activity</h4>
@@ -216,6 +221,7 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>Vn(m/S) = constant for ε>=εc
 <br>v<sub>n</sub>(m/s)=u<sub>n</sub>. ε/(1+ ε/ε<sub>c</sub>), for ε<=εc
 <br>v<sub>n</sub>(m/s)=v<sub>sat</sub> , for  ε>=εc
+<br>![WhatsApp Image 2025-08-20 at 23 32 18](https://github.com/user-attachments/assets/032aa7b6-9231-4cd2-b892-6ffa032457c2)
 
 <br>Solve above formulae using continuity equation 
 <br>Then re- deriving drain current using the boundary conditions.
@@ -302,6 +308,8 @@ setplot dc1
 <br>
 <h3>Part 2: CMOS voltage transfer characteristics (VTC)</h3>
  <h4>What was learnt</h4>
+ <br>![WhatsApp Image 2025-08-20 at 23 32 54](https://github.com/user-attachments/assets/f082d8c1-9e1b-4bf2-a2ee-675b9edfdba1)
+
  In this Topic we will explore the CMOS topic . Introduce standard MOS voltage parameters creating CMOS using NMOS  and PMOS and plot load current for PMOS and NMOS and at last merge both the curves of NMOS and PMOS to plot VTC.
 <br>MOSFET As a Switch: 
 <br>Characteristic of MOS device :
@@ -333,7 +341,11 @@ setplot dc1
 <br>Vdsp = Vout – Vdd
 <br>For the relationship between the currents: Idsp=-Idsn
 <br>Load curve for PMOS transistor in CMOS inverter
-<br>![WhatsApp Image 2025-08-20 at 21 26 32](https://github.com/user-attachments/assets/ef1e6a6d-b776-4bfb-8b2d-7f67066368a1)
+<br>![WhatsApp Image 2025-08-20 at 23 33 24](https://github.com/user-attachments/assets/72792c55-6dfd-4bef-9586-20fcca3481f3)
+<br> For NMOS ![WhatsApp Image 2025-08-20 at 23 33 43](https://github.com/user-attachments/assets/c664f97b-897d-40b1-a1d8-d045437e0b28)
+<br>for CMOS![WhatsApp Image 2025-08-20 at 23 34 12](https://github.com/user-attachments/assets/81962ab0-85c5-438d-8e76-c4faf0147ad1)
+
+
 
 
 
@@ -342,6 +354,7 @@ setplot dc1
 
 <br><h2>CMOS Switching threshold and dynamic simulations</h2>
 <br>In the third session of the workshop, the main focus was on understanding voltage transfer characteristics using SPICE simulations. Later, CMOS inverter robustness was discussed, with a detailed explanation of the switching threshold. It was also shown how the switching threshold relates to the (W/L) ratios of PMOS and NMOS, and how you can find one if the other is preset.
+<br>![WhatsApp Image 2025-08-20 at 23 38 18](https://github.com/user-attachments/assets/adff7c10-fada-4adc-ba9e-2bc399543654)
 
 <h3>Part 1: Voltage transfer characteristics and SPICE simulations</h3>
 <h4>What was learnt</h4>
@@ -633,7 +646,8 @@ run
 <li>NMl remains largely unaffected, but NMh improves by approximately 120 mV, which remains within acceptable limits, demonstrating the CMOS inverter’s robustness in terms of noise margin.</li>
 
 <br>Lastly, the figure below outlines the suitable regions for both digital and analog applications.
-<br>
+<br>![WhatsApp Image 2025-08-20 at 23 35 47](https://github.com/user-attachments/assets/098c3fce-1d71-4284-9c8c-ce707851a45a)
+
  <h4>Lab Activity</h4>
  <br>Following code is used:
  <br>*Model Description
@@ -750,7 +764,8 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 
 <br>Etching Process Variation
 <br>Oxide Thickness
-<br>
+<br>![WhatsApp Image 2025-08-20 at 23 35 46](https://github.com/user-attachments/assets/68ecb1c2-7f35-452c-b269-6ea3f9b8121a)
+
 **Etching Process Variation:**
 <br>The etching process plays a crucial role in defining the physical structures within the CMOS inverter layout. It is a vital fabrication step that determines the width and height of the device features. These structural dimensions directly influence the inverter’s delay characteristics.
 
@@ -763,6 +778,7 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 <br>The poly-silicon layer thickness corresponds to the gate length, determining the technology node (e.g., 20nm, 30nm, 45nm). The thickness of the P-diffusion and N-diffusion layers correspond to the gate widths of the PMOS and NMOS transistors, respectively. The gate width is defined by the overlap area between the diffusion layer and the poly-silicon layer.
 
 <br>The fabrication process involves numerous chemicals, water, and gases, which can cause deviations from the ideal device structures, leading to variations in the final device characteristics.
+<br>
 <br>**Oxide Thickness:**
 <br>In an ideal oxidation process, the gate oxide thickness remains uniform, but in reality, it can vary along the gate length and between transistors in an inverter chain. This thickness affects the device current since the oxide capacitance (Cox) depends on it.
 <br>Device Strength Variations:
