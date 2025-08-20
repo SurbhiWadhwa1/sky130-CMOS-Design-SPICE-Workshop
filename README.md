@@ -732,14 +732,14 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 <br>To calculate the gain for the given plot:
 <br>Select the curve for which the gain is to be calculated (In this case, we chose the plot for 1.8V Vdd)
 <br>Left click on the point where the slope of the curve is almost changing toward the top of the plot
-<br>The point obtained was x0 = 0.766667, y0 = 1.71351
+<br>The point obtained was x0 = 0.777528, y0 = 1.70213
 <br>Now, left click on the point where the slope of the curve is almost changing toward the bottom of the plot
-<br>The point obtained was x0 = 0.982667, y0 = 0.1 but for our convenience let us consider the coordinates of the point to be x1, y1
-<br>Therefore, the point becomes x1 = 0.982667, y1 = 0.1
-<br>Subtract y1 from y0. So, y0 - y1 = 1.61351
-<br>Subtract x1 from x0. So, x0 - x1 = -0.216
+<br>The point obtained was x0 = 0.983146, y0 = 0.102128 but for our convenience let us consider the coordinates of the point to be x1, y1
+<br>Therefore, the point becomes x1 = 0.983146, y1 = 0.102128
+<br>Subtract y1 from y0. So, y0 - y1 = 1.600002
+<br>Subtract x1 from x0. So, x0 - x1 = -0.205618
 <br>Now, gain = (y0-y1)/(x0-x1)
-<br>Hence, Gain(g) = |(1.61351)/(-0.216)| = |-7.46995| = 7.46995
+<br>Hence, Gain(g) = |(1.600002)/(-0.205618)| = |-7.78142| = 7.78142
 
 
 
@@ -818,7 +818,7 @@ display
 <br>Zoom in on the plot where Vin ~ Vout by right clicking and dragging the cursor to select the area
 <br>Zoom until the value of switching threshold becomes almost certain
 <br>Left click on the point where Vin is roughly equal to Vout
-<br>A point x0 = 0.988209, y0 = 0.988191 is obtained
+<br>A point x0 = 0.988568, y0 = 0.985 is obtained
 <br>Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
 <br><h2>Conclusion</h2>
 <br>
