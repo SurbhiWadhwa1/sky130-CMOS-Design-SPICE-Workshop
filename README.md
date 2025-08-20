@@ -106,6 +106,10 @@ In the first session of the workshop, we began by understanding the significance
     <br>N<sub>A</sub>is the doping concentration
     <br>q is the charge of an electron
     <br>Cox is the oxide capacitance
+    <br>
+    <br>Fermi potential equation
+    <br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
+    <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
