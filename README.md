@@ -86,7 +86,13 @@ In the first session of the workshop, we began by understanding the significance
     <br>B stands for body
     <br>Body terminal can be used to tune the threshold voltage.
     <br>
-    <b>Threshold Voltage</b>
+    <b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
+    <br>
+    <b>Strong Inversion</b>- When Vgs is sufficiently large (Vgs &ge Vt), the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
+    <br>2 cases were discussed:
+    <br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
+    <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
+    <br>"In the presence of Vsb, additional potential is needed for strong inversion."
     
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
