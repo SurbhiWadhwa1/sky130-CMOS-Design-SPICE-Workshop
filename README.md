@@ -821,9 +821,11 @@ display
 <br>A point x0 = 0.988568, y0 = 0.985 is obtained
 <br>Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
 <br><h2>Conclusion</h2>
-<br>
-
-
+<br>Throughout the course, I gained a comprehensive understanding of MOSFETs and CMOS inverters. I learned various techniques to modify inverter characteristics and acquired practical skills in creating SPICE decks from netlists and running simulations. The study of voltage transfer characteristics and their influencing factors deepened my knowledge further. Additionally, exploring static behavior and its components was highly enlightening. The hands-on lab activities were particularly valuable, as analyzing simulation plots encouraged me to experiment with parameter adjustments. Overall, the workshop significantly enhanced my grasp of MOSFET fundamentals and sparked a keen interest in the subject. The continuous guidance provided by the VLSI System Design team made this experience highly rewarding.
+<br><h2>References</h2>
+<li>https://github.com/kunalg123/sky130CircuitDesignWorkshop</li>
+<li>https://www.vlsisystemdesign.com/</li>
+<li>https://github.com/kunalg123/vsdflow</li>
 
 
 
