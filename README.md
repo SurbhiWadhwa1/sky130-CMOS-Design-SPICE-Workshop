@@ -95,9 +95,12 @@ In the first session of the workshop, we began by understanding the significance
     <br>"In the presence of Vsb, additional potential is needed for strong inversion."
     <br>Threshold Voltage Equation: V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
     <br>where
-    <br>Vt0 is the threshold voltage when Vsb=0 and is a function of manufacturing process
+    <br>V<sub>T0</sub> is the threshold voltage when Vsb=0 and is a function of manufacturing process
     <br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
     <br>φ<sub>F</sub> is the fermi potential
+    <br>
+    <br><b>Body effect coefficient expression</b>
+   <br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
