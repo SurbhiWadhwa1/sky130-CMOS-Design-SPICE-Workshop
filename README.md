@@ -26,7 +26,7 @@ This workshop was structured into five sections:
           -What was learnt
           <li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
           -What was learnt
-          <li>Introduction to SPICE</li>
+          <li>Part 3: Introduction to SPICE</li>
           -What was learnt
           <br>-Lab Activity
         </ul>
