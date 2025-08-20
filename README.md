@@ -155,7 +155,11 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
     <br>
 <h3>Part 3: Introduction to SPICE</h3>
 <h4>What was learnt</h4>
-<br>
+<br>SPICE is a software/engine which already have predefined models which can be used to calculate waveforms and delays by inserting the input values. 
+<br>SPICE model parameters also known as technological constant nodes, which come from foundaries and is listed in the model file which we provide to the engine. Example: Vt0, kn', λ, γ
+<br>These are the 1st level inputs
+<br>Levels of SPICE simulation- 1st level input is SPICE model parameters+Spice netlist, these are given to the SPICE Software to get required SPICE waveform.
+<br>https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg
 
 
 
