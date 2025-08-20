@@ -22,9 +22,9 @@ This workshop was structured into five sections:
     <ul>
       <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
         <ul>
-          <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
+          <li>Part 1: Introduction to Circuit Design and SPICE Simulation </li>
           -What was learnt
-          <li>Part 2: NMOS Resistive region and Saturation region of operation (Id)</li>
+          <li>Part 2: NMOS Resistive region and Saturation region of operation </li>
           -What was learnt
           <li>Part 3: Introduction to SPICE</li>
           -What was learnt
@@ -112,7 +112,7 @@ In the first session of the workshop, we began by understanding the significance
     <br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
     <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate.
     <br>
-     <h3>Part 1: Introduction to Circuit Design and SPICE Simulation</h3>
+     <h3>Part 1: NMOS Resistive region and Saturation region of operation</h3>
   <li>Drain-to-Source Voltage (Vds)</li>
   <li>Characteristic plots</li>
 </ul>
