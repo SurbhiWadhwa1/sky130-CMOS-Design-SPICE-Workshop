@@ -729,6 +729,17 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 .end
 <br>![WhatsApp Image 2025-08-20 at 23 04 15](https://github.com/user-attachments/assets/1e5871cc-6b37-4ba5-8af8-ccce022abba6)
 <br>![WhatsApp Image 2025-08-20 at 23 04 15 (1)](https://github.com/user-attachments/assets/0409dd66-0419-4682-89e0-66ec7e0245a3)
+<br>To calculate the gain for the given plot:
+<br>Select the curve for which the gain is to be calculated (In this case, we chose the plot for 1.8V Vdd)
+<br>Left click on the point where the slope of the curve is almost changing toward the top of the plot
+<br>The point obtained was x0 = 0.766667, y0 = 1.71351
+<br>Now, left click on the point where the slope of the curve is almost changing toward the bottom of the plot
+<br>The point obtained was x0 = 0.982667, y0 = 0.1 but for our convenience let us consider the coordinates of the point to be x1, y1
+<br>Therefore, the point becomes x1 = 0.982667, y1 = 0.1
+<br>Subtract y1 from y0. So, y0 - y1 = 1.61351
+<br>Subtract x1 from x0. So, x0 - x1 = -0.216
+<br>Now, gain = (y0-y1)/(x0-x1)
+<br>Hence, Gain(g) = |(1.61351)/(-0.216)| = |-7.46995| = 7.46995
 
 
 
@@ -752,6 +763,66 @@ plot dc1.out vs in dc2.out vs in dc3.out vs in dc4.out vs in dc5.out vs in dc6.o
 <br>The poly-silicon layer thickness corresponds to the gate length, determining the technology node (e.g., 20nm, 30nm, 45nm). The thickness of the P-diffusion and N-diffusion layers correspond to the gate widths of the PMOS and NMOS transistors, respectively. The gate width is defined by the overlap area between the diffusion layer and the poly-silicon layer.
 
 <br>The fabrication process involves numerous chemicals, water, and gases, which can cause deviations from the ideal device structures, leading to variations in the final device characteristics.
+<br>**Oxide Thickness:**
+<br>In an ideal oxidation process, the gate oxide thickness remains uniform, but in reality, it can vary along the gate length and between transistors in an inverter chain. This thickness affects the device current since the oxide capacitance (Cox) depends on it.
+<br>Device Strength Variations:
+<br>Strong PMOS: Low resistance due to larger transistor width.
+<br>Weak PMOS: High resistance with smaller size.
+<br>Strong NMOS: Low resistance from larger size.
+<br>Weak NMOS: High resistance with smaller size.
+<br>Switching threshold voltage varies between approximately 0.7V (Weak PMOS–Strong NMOS) and 1.4V (Strong PMOS–Weak NMOS), which is acceptable as inverter functionality is maintained.
+<br>From SPICE simulations, we observe that:
+<br>Noise Margin High (NMh) varies from about 2.5V to 2.1V, a 400mV range, sufficient to handle high-voltage noise.
+<br>Noise Margin Low (NMl) changes from 0V to 0.3V, providing adequate low-voltage noise tolerance.
+<br>Overall, the noise margin variations are small, ensuring stable gate operation.
+<br>
+ <h4>Lab Activity</h4>
+ <br>for device variation, we need the following code:
+ <br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+
+XM1 out in vdd vdd sky130_fd_pr__pfet_01v8 w=7 l=0.15
+XM2 out in 0 0 sky130_fd_pr__nfet_01v8 w=0.42 l=0.15
+
+Cload out 0 50fF
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+
+.dc Vin 0 1.8 0.01
+
+.control
+run
+setplot dc1
+display
+.endc
+
+.end
+<br>![WhatsApp Image 2025-08-20 at 23 16 27](https://github.com/user-attachments/assets/fe7e2644-b7bd-4889-bfca-9d90d928a36c)
+
+<br>![WhatsApp Image 2025-08-20 at 23 16 27 (1)](https://github.com/user-attachments/assets/3790bc5f-c573-43cf-93eb-e8a347153d99)
+
+<br>![WhatsApp Image 2025-08-20 at 23 16 27 (2)](https://github.com/user-attachments/assets/a00e352a-f0bd-4505-b990-468e26124178)
+
+<br>Since the pfet width is very huge as compared to the nfet width, the plot is shifted towards right
+<br>**To find the value of the switching threshold:**
+<br>Zoom in on the plot where Vin ~ Vout by right clicking and dragging the cursor to select the area
+<br>Zoom until the value of switching threshold becomes almost certain
+<br>Left click on the point where Vin is roughly equal to Vout
+<br>A point x0 = 0.988209, y0 = 0.988191 is obtained
+<br>Since x0 ~ y0. Therefore, Switching Threshold Voltage = Vm = x0 = y0 = 0.988V
+<br><h2>Conclusion</h2>
+<br>
+
 
 
 
