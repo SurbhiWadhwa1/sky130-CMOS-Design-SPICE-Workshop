@@ -215,6 +215,7 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>Vn(m/S) = linear for ε<=εc
 <br>Vn(m/S) = constant for ε>=εc
 <br>v<sub>n</sub>(m/s)=u<sub>n</sub>. ε/(1+ ε/ε<sub>c</sub>), for ε<=εc
+<br>v<sub>n</sub>(m/s)=v<sub>sat</sub> , for  ε>=εc
 
 <br>Solve above formulae using continuity equation 
 <br>Then re- deriving drain current using the boundary conditions.
