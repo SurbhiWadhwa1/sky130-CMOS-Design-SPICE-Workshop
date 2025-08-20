@@ -239,7 +239,7 @@ In the Second session of the workshop, SPICE simulations were carried out for lo
 <br>In general, current tends to increase at lower voltage nodes. Velocity saturation causes the device to enter saturation earlier than expected, limiting further current increase.
 <h4>Lab Activity</h4>
 <br>We will plot the graph between Id vs Vds for short channel device and following code is needed:
-<br>![day2](https://github.com/user-attachments/assets/a0a9c7fb-d330-4f27-be9b-364fae3ad330)
+<br>![VirtualBox_vsdworkshop_15_08_2025_18_06_19](https://github.com/user-attachments/assets/e5728770-803b-448b-875e-ab1638ea516d)
 
 
 
