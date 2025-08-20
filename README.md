@@ -20,9 +20,10 @@ This workshop was structured into five sections:
 <br>
 **INDEX:**
     <ul>
-      <li>NMOS Fundamentals
+      <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
         <ul>
-          <li>Drain current (Id)</li>
+          <li>Part 1: Introduction to Circuit Design and SPICE Simulation (Id)</li>
+          <li>What was learnt</li>
           <li>Drain-to-Source Voltage (Vds)</li>
           <li>Characteristic plots</li>
         </ul>
