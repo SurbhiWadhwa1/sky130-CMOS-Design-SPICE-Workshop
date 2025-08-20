@@ -73,7 +73,8 @@ This workshop was structured into five sections:
   <li>Conclusion</li>
   <li>References</li>
 </ul>
-<h2>Day 1: NMOS Fundamentals</h2>
+<h2>Day 1: Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)</h2>
+
 <ul>
   <li>Drain current (Id)</li>
   <li>Drain-to-Source Voltage (Vds)</li>
