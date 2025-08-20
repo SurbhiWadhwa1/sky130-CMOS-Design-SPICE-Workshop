@@ -268,6 +268,36 @@ setplot dc1
 .end!
 <br>![VirtualBox_vsdworkshop_18_08_2025_22_26_05](https://github.com/user-attachments/assets/24021f21-ff58-4a4a-ac42-bc635668626c)
 
+<br>To calculate Threshold voltage for Id versus Vgs curve, the following SPICE code is required:
+<br>*Model Description
+.param temp=27
+
+*Including sky130 library files
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+
+*Netlist Description
+XM1 Vdd n1 0 0 sky130_fd_pr__nfet_01v8 w=0.39 l=0.15
+R1 n1 in 55
+
+Vdd vdd 0 1.8V
+Vin in 0 1.8V
+
+*simulation commands
+
+.op
+.dc Vin 0 1.8 0.1
+
+.control
+
+run
+display
+setplot dc1
+.endc
+
+.end
+<br>![VirtualBox_vsdworkshop_18_08_2025_22_30_02](https://github.com/user-attachments/assets/1b534841-ffb2-4ab0-a6c5-61f9763ecfff)
+
+
 
 <br>![VirtualBox_vsdworkshop_15_08_2025_22_37_51](https://github.com/user-attachments/assets/c0ecbcee-d3e1-455e-b243-bbf60e3d28b8)
 
