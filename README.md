@@ -5,7 +5,7 @@ CMOS Circuit Design and SPICE Simulation using SKY130 Technology Workshop
 <br>
 **Brief description of the course**
 <br>
-VLSI System Design organized a ten day workshop on CMOS circuit design and SPICE simulation using SKY130 technology.The workshop offered an in-depth knowledge of the MOSFET fundamentals, CMOS inverter behaviour, switching thresholds, noise margins, dynamic simulations and how the power supply and device variations affect the circuit, all reinforced through hands-on CMOS/SPICE exercises, including circuit simulation, waveform analysis and real device exploration.
+VLSI System Design organized a ten day workshop on CMOS circuit design and SPICE simulation using SKY130 technology.The workshop offered an in-depth knowledge of the MOSFET fundamentals, CMOS inverter behaviour, switching thresholds, noise margins, dynamic simulations and how the power supply and device variations such as etching and oxide thickness affect the circuit, all reinforced through hands-on CMOS/SPICE exercises, including circuit simulation, waveform analysis and real device exploration.
 <br>
 This workshop was structured into five sections:
 <br>1) NMOS Fundamentals: Basics of drain current (Id), drain-to-source voltage (Vds) and their characteristic plot
