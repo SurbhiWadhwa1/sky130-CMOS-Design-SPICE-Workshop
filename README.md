@@ -161,7 +161,8 @@ When Vgs-Vds<Vt, there is no channel present near the Drain terminal.Id becomes 
 <br>Levels of SPICE simulation- 1st level input is SPICE model parameters+Spice netlist, these are given to the SPICE Software to get required SPICE waveform.
 <br>https://user-images.githubusercontent.com/89193562/132711027-1aa941dc-56bc-4be9-af32-5a96b76d9c09.jpg
 <br>A node is a point that connects two terminals. When two terminals of the same device are short-circuited, the node exists between them. In most cases, however, a node connects multiple devices. Nodes can be identified in a SPICE netlist, where every wire linking different components corresponds to a unique node.
-<h4>What was learnt</h4>
+<h4>Lab Activity</h4>
+    <br> The following code is used for day1 lab activity
 <br>*Model Description
 .param temp=27
 
@@ -188,6 +189,9 @@ setplot dc1
 .endc
 
 .end
+<br>In the lab activity, tt(typical corner) corner is used.
+<br>![VirtualBox_vsdworkshop_15_08_2025_18_05_15](https://github.com/user-attachments/assets/96ef8322-12f2-4932-9007-4bfa6d5f7d56)
+
 
 
 
