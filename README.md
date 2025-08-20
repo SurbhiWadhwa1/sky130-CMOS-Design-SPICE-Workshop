@@ -194,6 +194,28 @@ setplot dc1
 <br>![VirtualBox_vsdworkshop_15_08_2025_18_05_35](https://github.com/user-attachments/assets/82230928-d2dc-4d60-ae12-20b42381db43)
 <br>![VirtualBox_vsdworkshop_15_08_2025_18_05_46](https://github.com/user-attachments/assets/4cf6d045-408e-47f3-a5db-579d077acc13)
 <br>By left click on the point on the required curve, we get the value of Id at that point as displayed in the the form of y0 in figure and y0 is value of Id in amperes.
+<br>
+<h2>Velocity Saturation and basics of CMOS inverter VTC</h2>
+In the Second session of the workshop, SPICE simulations were carried out for lower technology nodes, and the characteristics of both long-channel and short-channel devices were studied. The concepts of velocity saturation at low and high electric fields, along with the drain current model under velocity saturation, were also explored.
+<br>At the end of this session, we studied about the operation of MOSFET as a switch and analysis of the CMOS inverter characteristics.
+<h3>Part 1: SPICE Simulation for lower nodes and velocity saturation effect</h3>
+ <h4>What was learnt</h4>
+ We did some SPICE Simulation for two  devices whose channel width and channel length is different but there width by length ratio(W/L) is same .
+<br>Case1-    W=1.8u, L=1.2u device (W/L=1.5)
+<br>Case2-     W=0.375U, L=0.25 device (W/L=1.5)
+<br>As W/L ratio is constant then (Id) at saturation region should be constant . 
+<br>Simulate Id  v/s VGS  graph to the difference between two regions
+<br>For case 1 – drain current quadratic dependence 
+<br>case 2- (Short channel device) Id quadratic change for small current but on increasing gate voltage current increases linearly because of velocity saturation.
+<br>
+<b>Velocity saturation effect for Short channel length</b>
+<br>For lower value of EF velocity tends to linear function of EF but after some time becomes constant.
+<br>Formulae of velocity and mobility
+<br>Solve above formulae using continuity equation 
+<br>Then re- deriving drain current using the boundary conditions.
+<br>Id= -Vn(x). Qi(x).W
+
+ 
 
 
 
