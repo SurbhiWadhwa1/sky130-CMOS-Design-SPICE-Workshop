@@ -192,8 +192,8 @@ setplot dc1
 <br>In the lab activity, tt(typical corner) corner is used.
 <br>![VirtualBox_vsdworkshop_15_08_2025_18_05_15](https://github.com/user-attachments/assets/96ef8322-12f2-4932-9007-4bfa6d5f7d56)
 <br>![VirtualBox_vsdworkshop_15_08_2025_18_05_35](https://github.com/user-attachments/assets/82230928-d2dc-4d60-ae12-20b42381db43)
+<br>![Uploading VirtualBox_vsdworkshop_15_08_2025_18_05_46.jpg…]()
 
-<br>
 
 
 
