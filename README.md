@@ -87,32 +87,32 @@ In the first session of the workshop, we began by understanding the significance
     <br>Body terminal can be used to tune the threshold voltage.
     <br>![WhatsApp Image 2025-08-20 at 23 30 42](https://github.com/user-attachments/assets/9066bd97-a346-429d-a059-898c850275c0)
 
-    <b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
-    <br>
-    <b>Strong Inversion</b>- When Vgs is sufficiently large, the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
-    <br>2 cases were discussed:
-    <br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
-    <br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
-    <br>"In the presence of Vsb, additional potential is needed for strong inversion."
-    <br><b>Threshold Voltage Equation</b>b>
-    <br>V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
-    <br>where
-    <br>V<sub>T0</sub> is the threshold voltage when Vsb=0 and is a function of manufacturing process
-    <br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
-    <br>φ<sub>F</sub> is the fermi potential
-    <br>
-    <br><b>Body effect coefficient expression</b>
-   <br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
-    <br>where
-    <br> ε<sub>si</sub> is the relative permitivity of silicon (=11.7)
-    <br>N<sub>A</sub>is the doping concentration
-    <br>q is the charge of an electron
-    <br>Cox is the oxide capacitance
-    <br>
-    <br><b>Fermi potential equation</b>
-    <br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
-    <br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate.
-    <br>
+<b>Threshold Voltage (Vt)</b>- This is the minimum gate-to-source voltage (Vgs) required to form a conducting channel at the semiconductor surface or we can say that this is the voltage where "strong inversion" happens.
+<br>
+<b>Strong Inversion</b>- When Vgs is sufficiently large, the surface inverts to n type, creating a channel of mobile electrons that allows current to flow from drain to source.
+<br>2 cases were discussed:
+<br>1. Vsb=0; here no body bias is applied. In this case, the threshold voltage remains at its nominal value and strong inversion occurs as soos as Vgs exceeds this value
+<br>2. Vsb?0; here a +ve source-to-body bias is applied. This increases the depletion charge in the channel region and thereby raises the threshold voltage (body effect). As a result, a larger Vgs is required to reach strong inversion.
+<br>"In the presence of Vsb, additional potential is needed for strong inversion."
+<br><b>Threshold Voltage Equation</b>b>
+<br>V<sub>T</sub> = V<sub>T0</sub> + γ ( √(|-2φ<sub>F</sub> + V<sub>SB</sub>|) − √(|-2φ<sub>F</sub>|) )
+<br>where
+<br>V<sub>T0</sub> is the threshold voltage when Vsb=0 and is a function of manufacturing process
+<br>γ  is the body effect coefficient and it expresses the impact of changes in body bias Vsb ( γ  has the units of V^0.5)
+<br>φ<sub>F</sub> is the fermi potential
+<br>
+<br><b>Body effect coefficient expression</b>
+<br>γ = ( √(2 q ε<sub>si</sub> N<sub>A</sub>) ) / C<sub>ox</sub>
+<br>where
+<br> ε<sub>si</sub> is the relative permitivity of silicon (=11.7)
+<br>N<sub>A</sub>is the doping concentration
+<br>q is the charge of an electron
+<br>Cox is the oxide capacitance
+<br>
+<br><b>Fermi potential equation</b>
+<br>φ<sub>F</sub> = -φ<sub>T</sub> ln( N<sub>A</sub> / n<sub>i</sub> )
+<br>where n<sub>i</sub> is the intrinsic doping parameter for the substrate.
+<br>
      <h3>Part 2: NMOS Resistive region and Saturation region of operation</h3>
      <h4>What was learnt</h4>
      The resistive region, also known as linear region of operation, occurs when the transistor operates with Vgs=Vt, and further changes can be observed when Vgs>Vt. In this region, the induced charge Qi is proportional to (Vgs-Vt). For analysis, we took 
@@ -842,31 +842,6 @@ display
 <li>https://github.com/kunalg123/sky130CircuitDesignWorkshop</li>
 <li>https://www.vlsisystemdesign.com/</li>
 <li>https://github.com/kunalg123/vsdflow</li>
-
-
-
-
-
-
-
 <br>
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-    
-  <li>Drain-to-Source Voltage (Vds)</li>
-  <li>Characteristic plots</li>
 </ul>
 
