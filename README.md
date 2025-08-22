@@ -22,7 +22,7 @@ This workshop was structured into five sections:
 <li>SKY130 PDK</li>
 <li>ngspice</li>
 <li>Oracle Virtualbox</li>
-<br>
+
 **INDEX:**
     <ul>
       <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
