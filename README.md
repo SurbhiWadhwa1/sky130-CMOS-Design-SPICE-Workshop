@@ -18,6 +18,11 @@ This workshop was structured into five sections:
 5) Lastly, studying the impact of power supply and device variations (etching, oxide thickness) on circuit and evaluating their robustnes. We studied the advantages and disadvantages of using small power supply and also the impact of device variation on single inverter and and inverter chain were discussed.
 <br>Each section included practical lab exercises using SPICE- which enables us to apply theory to simulate circuits, study the waveforms and observe real device behaviour practically.
 <br>
+**Tools Used**
+<li>SKY130 PDK</li>
+<li>ngspice</li>
+<li>Oracle Virtualbox</li>
+<br>
 **INDEX:**
     <ul>
       <li>Basics of NMOS Drain Current (Id) vs Drain-to-source Voltage (Vds)
